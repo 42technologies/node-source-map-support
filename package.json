@@ -1,11 +1,14 @@
 {
-  "name": "source-map-support",
+  "name": "@42technologies/source-map-support",
   "description": "Fixes stack traces for files with source maps",
   "version": "0.5.22",
   "main": "./source-map-support.js",
   "dependencies": {
     "buffer-from": "^1.0.0",
     "source-map": "^0.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
